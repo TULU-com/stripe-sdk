@@ -14,7 +14,7 @@ class StripeWebView extends StatefulWidget {
 }
 
 class _StripeWebViewState extends State<StripeWebView> {
-  WebViewController _webViewController;
+ late final WebViewController _webViewController;
 
   @override
   void initState() {
